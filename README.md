@@ -6,6 +6,7 @@ CMakeLists.txt
 wizchip_http_server.c
 
 以下のコメントアウトを外すことでDHCPになります。
+```
 //DHCP
 /* 
     wizchip_dhcp_init();
@@ -17,3 +18,4 @@ wizchip_http_server.c
     }
 */
   
+```
